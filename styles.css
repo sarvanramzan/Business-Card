@@ -1,0 +1,32 @@
+/* css helper style */
+/* .border-blue {
+    border: 1px dotted blue;
+} */
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #8ecae6;
+    color: #252422;
+    border-bottom: 8px solid #ccc5b9;
+    border-radius: 12px;
+}
+
+/* css descendant selector */
+div p:hover {
+    font-weight: bold;
+    color: #eb5e28;
+}
